@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.homepage{
+    margin: auto;
+    width: 1170px;
+}
+.nav-bar{
+    margin-left: 45%;
+    
+}
+.n{
+    color: white;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.mc{
+    font-size: 60px;
+    font-style: italic;
+    color: white;
+    font-family:cursive;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+link:hover{
+    color: red;
+}
+.paragraph{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.ct{
+    border: 1px solid white;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 30px;
+	display: inline-block;
+	color: white;
+}
+.contact{
+    text-align: center;
+}
+.contact a:hover{
+    background: white;
+    color: black;
+}
+.link{
+    border: 1px solid white;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 15px;
+	margin-top: 25px;
+	display: inline-block;
+	color: white;
+}
+.nav-bar a:hover{
+    background: white;
+    color: black;   
+}
+

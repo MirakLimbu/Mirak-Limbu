@@ -1,0 +1,135 @@
+body{
+    background-color: skyblue;
+    margin-bottom: 0px;
+    
+}
+.bold{
+    font-size: 30px;
+    color: white;
+}
+.icon{
+    size: 30px;
+}
+.Dot1{
+    border-radius: 100%;
+width: 25%;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:red;
+}
+.Dot{
+    border-radius: 100%;
+    width: 35%;
+}
+.div1{
+
+    padding-bottom: 700px;
+}
+.data{
+    color: white;
+    font-size: 20px;
+}
+.table{
+    margin-left: 40;
+}
+.AU{
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 30px; 
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+.bold1{
+    font:bolder;
+    font-size: 50px;
+    color: rgb(8, 219, 235);
+    
+}
+.bold1:hover{
+    color: indigo;
+}
+.back:hover{
+    color: white;
+}
+.back{
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(152, 74, 197);
+}
+.rightside{
+   border-color: rgb(8, 219, 235);
+   border-block-width: 2px;
+}
+.hr1{
+    border-color: white;
+    border-block-width: 2px;
+ }
+ .year{
+     font: bold;
+     font-size: 30px;
+     color: rgb(89, 48, 200);
+     
+ }
+ .Y{
+     font-size: 20px;
+ }
+.bar{
+    margin-right: 80px;
+    border-style:groove ;
+    height: 100%;
+    width: 450%;
+}
+.p{
+    background-color: rgb(141, 38, 214);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 75%;
+}
+.c{
+    background-color: rgb(141, 38, 214);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 65%;
+}
+.j{
+    background-color:rgb(141, 38, 214);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 45%;
+}
+.v{
+    background-color: rgb(141, 38, 214);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 75%;
+}
+.P{
+    background-color: rgb(141, 38, 214);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 75%;
+}
+.skill{
+    font-size: 25px;
+    font-style:normal;
+}
+.hobby{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border-style: groove;
+}
+.hobby1{
+    font-style:oblique;
+    font-size: 25px;
+    color: rgb(81, 0, 233);
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 1%;
+    padding: 0%;
+}
+body{
+    background-color: lightskyblue;
+}
+.back{
+    text-decoration: none;
+    color: black;
+}
+.back:hover{
+    color: blue;
+}
+.submit{
+    border: 1px solid black;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 25px;
+	display: inline-block;
+	background-color: transparent;
+    color: black;
+}
+.submit:hover{
+    background: lightgrey;
+    color: black;
+}
+input{
+    padding: 10px;
+    margin:15px;
+    width: 40%;
+    font-size: 20px;
+    background-color: rgb(182, 182, 182);
+    color: whitesmoke;
+    border: none;
+    outline:none;
+    text-decoration: transparent;
+  }
+
+input::placeholder{
+    color:white;
+}
+.box{
+    margin: auto;
+    text-align: center;
+}

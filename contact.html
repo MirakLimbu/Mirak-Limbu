@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" href="photo.png"> <!--linking an image for making an icon on tab bar-->
+    <link rel="stylesheet" href="cu.jpg"> <!--Inserting an image for background-->
+    <script defer src="script1.js"></script> <!--using javascript-->
+</head>
+<!--Internal css-->
+<style> 
+/* using internal css properties for background image */
+    body {                                 
+        background-image: url('cu.jpg');  
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+</style>
+<p class="back" style="font-size: 50px; "><a class="back"
+    href="A-Home Page(Main page).html">⇦Home</a></p> <!-- Home bottom that takes to home page-->
+<h1 class="heading">CONTACT US</h1><!--a big heading-->
+<br>
+<br>
+<br>
+<p style="font-size: 50px; text-align: center; color: white;">Got a question?</p>
+<p class="paragraph">We'd love to hear from you. Send us a message and<br>we will try to respond as
+    soon as possible.</p>
+    <br>
+    <br>
+<table>
+    <tr>
+        <td>
+            <div class="left">
+                <p class="info">☎ 9819365118</p>
+
+                <!--Link that open mail for contacting-->
+                <p class="info"><a class="mail" href="mailto:limboomirak1212@gmail.com" >✉ limboomirak1212@gmail.com</a></p>
+
+                <!--Link that opens up Mirak Limbu Facebook Page-->
+                <p class="info">Facebook: <a class="mail" href="https://www.facebook.com/LimbooJames.funk">Mirak Limbu</a></p>
+            </div>
+        </td>
+
+        <td>
+            <div class="right">
+                <form action="result.html" onsubmit="return checkforblank()" autocomplete="off"><!--using some properties for functioning css and bring it on action-->
+                    <input id="fname" type="text" placeholder="First Name">     <!--Input Box-->
+                    <input id="lname" type="text" placeholder="Last Name">      <!--Input Box-->
+                    <input id="email" type="Email" placeholder="Email">         <!--Input Box-->
+                    <input id="subject" type="text" placeholder="Subject of the message."><!--Input Box-->
+                    <textarea id="message" name="message" placeholder="Message" rows="5" ></textarea><br><!--Message Box-->
+                    <button class="submit">Submit</button><!--creating a submit bottom-->
+                </form >
+            </div>
+        </td>
+    </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" href="photo.png"><!--Linking an image for making an icon on tab bar-->
+    <link rel="stylesheet" href="css/form.css">
+    <!--Linking an image to make logo on tab bar-->
+    <script defer src="script.js"></script> <!-- linking java script file -->
+</head>
+<div>
+
+    <div class="back">
+
+        <p class="back" style="font-size: 50px; "><a class="back" href="A-Home Page(Main page).html">⇦Home</a></p>
+        <!--Home bottom that allow to go back to home page-->
+    </div>
+
+    <p style="font-size: 60px; color: black;text-align: center; margin-top: 0px;"><strong>Registration Form</strong></p>
+    <!--using inline CSS for heading-->
+
+</div>
+
+<body>
+
+    <div class="box">
+        <form action="result.html" onsubmit="return checkforblank()" autocomplete="off"><!--using some properties for functioning css and bring it on action-->
+            <input id="fname" type="text" placeholder="First Name"><br><br>  <!--Input Box-->
+            <input id="lname" type="text" placeholder="Last Name"><br><br>   <!--Input Box-->
+            <input id="email" type="Email" placeholder="Email"><br><br>      <!--Input Box-->
+            <input id="number" type="number" placeholder="Phone Number"><br><br><!--Input Box-->
+            <input id="password" type="text" placeholder="Password"><br><br><!--Input Box-->
+            <button class="submit">Submit</button><!--creating a submit bottom-->
+        </form>
+    </div>
+</body>
+
+</html>
